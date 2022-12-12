@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const Connection = async () => {
-    const URL = (process.env.Mongo_url)
+    const URL = (process.env.Mongo_URL)
 
     try {
         
